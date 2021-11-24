@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding-top: 4rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.pX-1 {
+  padding: 0 1rem 0 1rem !important;
+}
+.pX-2 {
+  padding: 0 2rem 0 2rem !important;
+}
+.pX-3 {
+  padding: 0 3rem 0 3rem !important;
+}
+.pX-4 {
+  padding: 0 4rem 0 4rem !important;
+}
+.pX-5 {
+  padding: 0 5rem 0 5rem !important;
+}
+.mY-5 {
+  margin: 5rem 0 5rem 0 !important;
+}
+.mB-5 {
+  margin-bottom: 5rem !important;
+}
+.mT-4 {
+  margin-top: 4rem !important;
+}
+.mT-2 {
+  margin-top: 2rem !important;
+}
+.navbar-fixed {
+  position: fixed;
+  right: 0 ;
+  left: 0 ;
+  top: 0 ;
+}
+.footer-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.page-footer {
+  padding-top: 0 !important;
+}
+.todo_wrapper {
+  padding-top: 25px;
+}
+.collection {
+  border: none !important;
+}
+.collection-item {
+  border: 1px solid #e0e0e0 !important;
+  margin-bottom: 10px !important;
+}
+ a {
+  cursor: pointer;
+}
+.submit-a {
+  position: relative;
+  bottom: 10px;
+}
+.submit-a button {
+  position: absolute;
+  top: 8px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+}
+.loader {
+  position: fixed;
+  left: 50%;
+  top:200px;
+}
+
+@media screen and (max-width: 500px) {
+  .todo_wrapper {
+    padding-top: 5px;
+  }
+}
